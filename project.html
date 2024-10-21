@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Ranking Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="font-roboto bg-gray-100">
+    <!-- Navbar -->
+    <header class="fixed top-0 w-full bg-yellow-500 text-white shadow-lg z-50">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">MRP</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+                <li><a href="#genres" class="hover:text-gray-200">Genres</a></li>
+                <li><a href="#top-movies" class="hover:text-gray-200">Top Movies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-16">
+        <!-- Home Section -->
+        <section id="home" class="text-center py-16 bg-white">
+            <h2 class="text-4xl font-bold">My Movie Ranking Site</h2>
+            <p class="mt-4 text-lg">An awesome platform for sharing my taste in favorite Movies or Music.</p>
+            <img src="sce.jpg" alt="Movie Scene" class="mt-8 w-full h-auto">
+        </section>
+
+        <!-- Genres Section -->
+        <section id="genres" class="py-16 bg-gray-100">
+            <h3 class="text-3xl font-bold text-center">Movie Genres</h3>
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8">
+            <div>
+                <div class="p-4-auto bg-white shadow-sm text-center" ><img src="4.jpg" alt="Movie Scene" class="mt-auto w-full h-auto">Action</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="scie.jpg" alt="Movie Scene" class="mt-auto">Sci-fiction</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="1.jpg" alt="Movie Scene" class="mt-auto">Adventure</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="12.jpg" alt="Movie Scene" class="mt-auto">Romance</div>
+            </div>
+            <div>
+                <div class="p-4-auto bg-white shadow-md text-center"><img src="3.jpg" alt="Movie Scene" class="mt-auto">Comedy</div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Top Movies Section -->
+        <section id="top-movies" class="py-16 bg-white">
+            <h3 class="text-3xl font-bold text-center">Top 5 Movies</h3>
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8">
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="action.jpg" alt="Movie 1" class="w-full h-auto rounded-lg">
+                    <h4 class="mt-4 text-xl font-bold">Independence Day</h4>
+                    <a href="https://youtube.com/trailer" class="text-blue-500 hover:underline"><br>Watch now</a>
+                </div>
+              <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="2.jpg" alt="adventure1" class="w-full h-auto rounded-lg">
+                    <h5 class="mt-4 text-xl font-bold">Creation of the Earth</h5>
+                    <a href="https://youtube.com/Adventure" class="text-blue-500 hover:underline">Watch now</a>
+                </div>
+              <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="13.jpg" alt="Movie 3" class="w-full h-auto rounded-lg">
+                    <h6 class="mt-4 text-xl font-bold">Litle brother</h6>
+                    <a href="https://youtube.com/trailer1" class="text-blue-500 hover:underline">Watch now</a>
+                </div>
+              <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="romance.jpg" alt="Movie 6" class="w-full h-auto rounded-lg">
+                    <h7 class="mt-4 text-xl font-bold">Fast and Ferious</h7>
+                    <a href="https://youtube.com/trailer1" class="text-blue-500 hover:underline">Watch now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-green-500 text-white text-center py-4">
+        <footer class="container mx-auto p-4 flex justify-between bg-green items-center">
+      <!--socials-->
+         <h4 class="container mx-auto p-4 flex justify-between items-center">
+          <li><a href="facebook.html">facebook</a></li>
+          <li><a href="twiter.html">twiter</a></li>
+          <li><a href="Whatsapp.html">Whatsapp</a></li>
+         </h4>
+    </!--socials-->
+    <div class="news">
+        <center><form><label>Subscribe to our Newsletter <input type="email" placeholder="Email" required> <input type="submit" value="submit" class="submit mx-auto text-black"></label></form> </center>
+    </div>
+        <p>&copy; 2024 Movie Ranking. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+</body>
+</html>
